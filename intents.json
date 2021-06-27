@@ -1,0 +1,188 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Oye",
+        "Cómo estás",
+        "¿Hay alguien ahí?",
+        "Hola",
+        "Buenos días"
+      ],
+      "responses": [
+        "Ey :-)",
+        "Hola, gracias por visitarnos",
+        "Hola, ¿qué puedo hacer por ti?",
+        "Hola, ¿cómo puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Chao",
+        "Hasta luego",
+        "Adiós",
+        "Nos vemos"
+      ],
+      "responses": [
+        "Que tenga un lindo d\u007Ba"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+          "Gracias",
+          "Gracias a ti",
+          "Eso es útil",
+          "¡Muchas gracias!"
+      ],
+      "responses": [
+        "¡Feliz de ayudar!",
+        "¡En cualquier momento!",
+        "Un placer"
+      ]
+    },
+    {
+      "tag": "objeto",
+      "patterns": [
+        "¿Cuál es el objeto?",
+		"¿tiene objeto?",
+		"dime el objeto"
+      ],
+      "responses": [
+        "Determinar las acciones a realizar en una entidad durante el diseño, la implementación y posterior operación de un Sistema de Gestión de la Seguridad Informática",
+		"Es un complemento a lo exigido en el Decreto de Seguridad de las Tecnologías de la Información y la Comunicación y la Defensa del Ciberespacio Nacional en cuanto a la obligación de diseñar, implantar y mantener actualizado un Sistema de Seguridad Informática, a partir de los bienes a proteger y de los riesgos a que están sometidos",
+		"Es un complemento a lo exigido en el Reglamento de Seguridad para las Tecnologías de la Información y la Comunicación en cuanto a la obligación de diseñar, implantar y mantener actualizado un Sistema de Seguridad Informática, a partir de los bienes a proteger y de los riesgos a que están sometidos."        
+      ]
+    },
+    {
+      "tag": "sgci",
+      "patterns": [
+		"¿Qué es el SGCI?",
+        "SGCI",
+        "Siglas SGCI",
+		"¿qúe quiere decir SGCI?"
+      ],
+      "responses": [
+		"Iniciales de Sistema de Gestión de la Seguridad Informática"
+      ]
+    }
+	,
+    {
+      "tag": "terminos",
+      "patterns": [
+		"¿qué términos usa?",
+        "¿qué definiciones usa?",
+        "¿qué términos y definiciones?",
+		"¿cuales son los términos y definiciones?"
+      ],
+      "responses": [
+		"Análisis de riesgos \nIdentificación de usuarios\nImpacto\nRiesgo residual\nSistema informático\nSoportes removibles\nTrazas de auditoría"
+      ]
+    }
+	,
+    {
+      "tag": "riesgos",
+      "patterns": [
+		"Análisis de riesgos",
+        "¿qué es el análisis de riesgos?",
+        "¿qué significa el riesgo?",
+		"¿que significa análisis de riesgos?"
+      ],
+      "responses": [
+		"Proceso dirigido a determinar la probabilidad de que las amenazas se materialicen sobre los bienes informáticos",
+		"Implica la identificación de los bienes a proteger, las amenazas que actúan sobre ellos, su probabilidad de ocurrencia y el impacto que puedan causar"
+      ]
+    }
+	,
+    {
+      "tag": "idusuario",
+      "patterns": [
+		"Identificación de usuarios",
+		"¿qué es la identificación de usuarios?",
+        "¿qué significa el identificación de usuarios?"
+      ],
+      "responses": [
+		"Es el identificador que define quién es el usuario y qué lo identifica unívocamente en el sistema, diferenciándolo en los sistemas multiusuario del resto"
+      ]
+    }
+	,
+    {
+      "tag": "impacto",
+      "patterns": [		
+		"¿qué es el impacto?",
+        "¿cómo se define el impacto?",
+		"¿que significa impacto?"
+      ],
+      "responses": [
+		"Daño producido por la materialización de una amenaza."
+      ]
+    }
+	,
+    {
+      "tag": "residual",
+      "patterns": [
+		"Análisis de riesgos",
+        "¿qué es el riesgo residual?",
+        "¿qué significa el riesgo residual?",
+		"¿como se define el riesgo residual?"
+      ],
+      "responses": [
+		"Riesgo remanente después de aplicados controles de seguridad para minimizarlo"
+      ]
+    }
+	,
+    {
+      "tag": "sistemainformatico",
+      "patterns": [
+		"Sistema informático",
+        "¿qué es un sistema informático?",
+        "¿qué significa sistema informático?",
+		"¿como se define sistema informático?"
+      ],
+      "responses": [
+		"Conjunto de bienes informáticos de que dispone una entidad para su correcto funcionamiento y la consecución de sus objetivos."
+      ]
+    }
+	,
+    {
+      "tag": "soporte",
+      "patterns": [
+		"Soportes removibles",
+		"¿qué es un soporte removible?",
+        "¿qué significa soporte removible?",
+		"¿como se define un soporte removible?"
+      ],
+      "responses": [
+		"Cualquier tipo de dispositivo intercambiable que permita la transferencia o almacenamiento de información."
+      ]
+    }
+	,
+    {
+      "tag": "traza",
+      "patterns": [
+		"Trazas de auditoría",
+		"¿qué es una traza de auditoría?",
+        "¿qué significa traza de auditoría?",
+		"¿como se define una traza de auditoría?"
+      ],
+      "responses": [
+		"Registros que se generan para describir la información asociada a eventos de interés en los diferentes procesos que se ejecutan en las TIC",
+		"Los registros de traza están compuestos por secciones y campos donde se describen aspectos como fecha y hora, tipo de evento, quién o qué lo causa, y qué se afecta, que permiten comprender el evento que se registra y usualmente se registran en orden cronológico."
+      ]
+    }
+	,
+    {
+      "tag": "pasos",
+      "patterns": [
+		"cómo hago una estrategia?",
+		"que estrategia sigo?",
+		"cómo conformo la estrategia?",
+      ],
+      "responses": [
+		"1. determinar qué se trata de proteger;\n2. determinar de qué es necesario protegerse;\n3. determinar cuan probables son las amenazas;\n4. implementar los controles que protejan los bienes informáticos de una manera rentable; y \n5. revisar continuamente este proceso y perfeccionarlo cada vez que una debilidad(vulnerabilidad) sea encontrada."
+      ]
+    }
+  ]
+}
